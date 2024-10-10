@@ -1,0 +1,19 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "allowedVersions": "^x.x.x",
+      "automerge": true,
+      "matchPackageNames": ["*"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "labels": ["breaking change"]
+    }
+  ],
+  "platform": "github",
+  "repositories": [
+    "mpasterkamp/poc-handover-toolkit"
+  ]
+}
