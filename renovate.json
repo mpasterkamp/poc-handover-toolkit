@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "prConcurrentLimit": 0
+  "prConcurrentLimit": 0,
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
