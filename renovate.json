@@ -1,7 +1,6 @@
 {
   "enabled": true,
   "rebaseStalePrs": true,
-  "branchLimit": 10,
   "prConcurrentLimit": 0,
   "packageRules": [
     {
