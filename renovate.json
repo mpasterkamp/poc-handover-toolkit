@@ -1,14 +1,14 @@
 {
+  "enabled": true,
   "packageRules": [
-    {
-      "allowedVersions": "^x.x.x",
-      "automerge": true,
-      "matchPackageNames": ["*"]
-    },
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
-      "labels": ["breaking change"]
+      "labels": ["breaking change"] // Label for major updates
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true // Automatically merge minor and patch updates
     }
   ],
   "platform": "github",
