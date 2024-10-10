@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "rebaseStalePrs": true,
-  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
