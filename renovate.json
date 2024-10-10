@@ -4,11 +4,11 @@
     {
       "matchUpdateTypes": ["major"],
       "automerge": false,
-      "labels": ["breaking change"] // Label for major updates
+      "labels": ["breaking change"]
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true // Automatically merge minor and patch updates
+      "automerge": true
     }
   ],
   "platform": "github",
