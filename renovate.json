@@ -1,21 +1,3 @@
 {
   "enabled": true,
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 0,
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major"],
-      "automerge": false,
-      "labels": ["breaking change"]
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "ignoreTests": true
-    }
-  ],
-  "platform": "github",
-  "repositories": [
-    "mpasterkamp/poc-handover-toolkit"
-  ]
 }
